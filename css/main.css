@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
-.login__logo {
-  max-width: 15rem;
-  height: auto;
-}
 .login__left {
   width: 100 !important;
   transition: width 1s;
 }
-.login__left .btn-bg {
+.login__left .button-primary {
   background: var(--linear, linear-gradient(270deg, #98d752 0%, #57cac3 100%));
   color: white;
 }

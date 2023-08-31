@@ -1,14 +1,9 @@
 .login {
-  &__logo {
-    max-width: 15rem;
-    height: auto;
-  }
-
   &__left {
     width: 100 !important;
     transition: width 1s;
 
-    .btn-bg {
+    .button-primary {
       background: $color-primary;
       color: white;
     }
