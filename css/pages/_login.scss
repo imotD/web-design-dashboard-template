@@ -1,0 +1,53 @@
+.login {
+  &__logo {
+    max-width: 15rem;
+    height: auto;
+  }
+
+  &__left {
+    width: 100 !important;
+    transition: width 1s;
+
+    .btn-bg {
+      background: $color-primary;
+      color: white;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "sm")) {
+      width: 75% !important;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+      width: 50% !important;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "xl")) {
+      width: 25% !important;
+    }
+  }
+
+  &__right {
+    width: 0% !important;
+    transition: width 1s;
+
+    @media (min-width: map-get($grid-breakpoints, "sm")) {
+      width: 25% !important;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+      width: 50% !important;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, "xl")) {
+      width: 75% !important;
+    }
+
+    &--bg {
+      background-image: url("/images/bg-login.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

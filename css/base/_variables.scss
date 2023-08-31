@@ -1,3 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
 
 $font-default: "Poppins", sans-serif;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$color-primary: var(
+  --linear,
+  linear-gradient(270deg, #98d752 0%, #57cac3 100%)
+);

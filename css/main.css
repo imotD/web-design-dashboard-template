@@ -1,1 +1,54 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
+.login__logo {
+  max-width: 15rem;
+  height: auto;
+}
+.login__left {
+  width: 100 !important;
+  transition: width 1s;
+}
+.login__left .btn-bg {
+  background: var(--linear, linear-gradient(270deg, #98d752 0%, #57cac3 100%));
+  color: white;
+}
+@media (min-width: 576px) {
+  .login__left {
+    width: 75% !important;
+  }
+}
+@media (min-width: 768px) {
+  .login__left {
+    width: 50% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .login__left {
+    width: 25% !important;
+  }
+}
+.login__right {
+  width: 0% !important;
+  transition: width 1s;
+}
+@media (min-width: 576px) {
+  .login__right {
+    width: 25% !important;
+  }
+}
+@media (min-width: 768px) {
+  .login__right {
+    width: 50% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .login__right {
+    width: 75% !important;
+  }
+}
+.login__right--bg {
+  background-image: url("/images/bg-login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
